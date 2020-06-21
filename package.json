@@ -1,0 +1,16 @@
+{
+  "name": "api-ec2",
+  "version": "1.0.0",
+  "description": "API for GoCLoud on EC2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "author": "Stephanie Piñero",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.701.0",
+    "chileanrutvalidator": "^1.0.5",
+    "express": "^4.17.1"
+  }
+}
